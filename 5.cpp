@@ -1,12 +1,12 @@
 #include<iostream>
-#include<iomanip>
 using namespace std;
 int main()
 {
-	cout << "请输入华氏温度" << endl;
-	float i;
-	cin >> i;
-	const float k = (i - 32) / 1.8f;
-	cout << "摄氏温度为" <<fixed<<setprecision(2)<< k << endl;
+	int a = 1;
+	for (int i = 10; i > 1; i--)
+	{
+		a = (a + 1) * 2;
+	}
+	cout << a << endl;
 	return 0;
 }
